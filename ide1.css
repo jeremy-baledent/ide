@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+#nav li {
+	display: inline;
+	list-style: none;
+	
+}
+#nav {
+	padding: 0; margin: 0;
+	text-align: center;
+	border: 10px solid #333;
+    border-top-color: #707070;
+    background-color: #5E5E5E;
+	height: 40px;
+}
+
+#nav a {
+	display:inline-block;
+	margin: 0 30px;
+	text-decoration: none;
+	color: white;
+	font-size:25px;
+	font-weight:bold
+	
+}
+li a.active {
+  background-color: orange;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: orange ;
+  color: white;
+}
+.eclipse{
+	display: flex;  
+	flex-direction:column;
+	margin-top:40px;
+	align-items:center
+	
+}
+
+.youtube{
+			
+	float:center;
+	padding:0px;
+	margin-top:100px;
+
+}
+
+.twitter{
+	width:20px;
+	height:	20px;
+	margin-top:115px;
+}
+.fb{
+	width:20px;
+	height:	20px;
+}
+
+.code{
+	flex-direction: column;
+	display: flex;
+	align-items:right;
+	justify-content: space-between;
+	margin-top:10px;
+	margin-left:750px;
+	height:50px;
+	width:500px;
+}
+.p1{
+	font-family: 'Modak', cursive;
+	font-size:18px;
+}
+.button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: white;
+  color: black;
+  border: 2px solid orange;
+}
+
+.button{
+background-color:black;
+color:orange;
+width:93px;
+height:30px;
+font-size:15px;
+font-family: 'Modak', cursive;
+margin-left:300px;
+}
+.p2{
+	font-size:30px;
+	font-family: 'Indie Flower', cursive;
+	margin-left:10px;
+}  
+.p3{
+	font-size:25px;
+	margin-left:200px;
+	margin-top:1px;
+	font-family: 'Orbitron', sans-serif;
+	
+	
+}
+body{
+	background: linear-gradient(to top, white, orange);
+	margin: 0;
+	padding: 0;
+	
+	
+	
+}

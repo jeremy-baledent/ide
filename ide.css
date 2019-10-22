@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pattaya&display=swap');
+
+
+#nav li {
+	display: inline;
+	list-style: none;
+}
+#nav {
+	padding: 0; margin: 0;
+	text-align: center;
+	border: 1px solid #333;
+    border-top-color: #707070;
+    background-color: #5E5E5E;
+	background: -webkit-linear-gradient(bottom , #666666 0pt, #5E5E5E 50%, #707070 51%, #808080 100%) repeat scroll 0 0 transparent;
+	background-image:url(coding.jpg);
+	height: 33px;
+}
+
+#nav a {
+	display:inline-block;
+	margin: 0 30px;
+	text-decoration: none;
+	color: white;
+	font-size:25px;
+	font-weight:bold
+	
+}
+
+
+
+
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #1A5276 ;
+  color: white;
+}
+.p1{
+	font-family: 'Berkshire Swash', cursive;
+	color:white;
+	-webkit-transition: all 10s ease;
+	
+	
+}
+.eclipse {
+            display: flex;
+            justify-content: space-between;
+          }
+ 
+.p2{
+	text-shadow: 0 0 3px white, 0 0 5px white;
+	font-weight: bold;
+	-webkit-transition: all 10s ease;
+	
+}
+.lobster{
+display: flex;
+flex-direction:column;
+align-items:center;
+justify-content: center;
+
+} 
+
+
+.webstorm{
+display: flex;
+flex-direction:column;
+align-items:center;	
+}
+.p3{
+	font-family: 'Pattaya', sans-serif;
+	color:white;
+	-webkit-transition: all 10s ease;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+	
+	 background: linear-gradient(to top, black, blue);
+	
+	padding:0;
+	margin:0;
+}
